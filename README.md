@@ -7,8 +7,9 @@ This repository contains my solution to the Udacity Self-Driving Car NanoDegree 
 
 The repository contains the following notable files:
 
-* [Advanced Lane Finding Project.ipynb](https://github.com/SvenKratz/CarND-Advanced-Lane-Lines-P4/blob/master/Advanced%20Lane%20Finding%20Project.ipynb) Jupyter notebook that contains the Python code of the single-image and video pipelines. It also contains many output images of the pipeline steps.
-* [lanefinding_output.mp4](lanefinding_output.mp4) output video of the video processing step with lane lines, curvature and vehicle centering reported.
+* [Classifier Training and Single Image Pipeline.ipynb](https://github.com/SvenKratz/CarND-Vehicle-Detection-P5/blob/master/Classifier%20Training%20and%20Single%20Image%20Pipeline.ipynb) Jupyter notebook that contains the Python code of the single-image pipelines. It also contains many output images of the pipeline steps.
+* [Vehicle Video Detection Pipeline.ipynb](https://github.com/SvenKratz/CarND-Vehicle-Detection-P5/blob/master/Vehicle%20Video%20Detection%20Pipeline.ipynb) Jupyter notebook that contains the Python code of the video vehicle detectio pipeline. 
+* [car_detect_output.mp4](car_detect_output.mp4) output video from the video processing pipeline. 
 * [writeup.md](writeup.md) Project writeup report.
-* `camera_calibration.p` Python pickle file containing the camera calibration data
-* `output_images` Example output images. Also used in the writeup.
+* `vgg_16_256_64.h5` Model used for feature extraction + classification 
+
